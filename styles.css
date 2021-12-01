@@ -22,3 +22,29 @@ h1{
     color: #A4FC52;
 }
 
+.TextNeon{
+padding: 1rem 1rem ;
+text-align: center;
+}
+
+.TextNeon h1{
+font-size: 3rem;
+text-align: center;
+font-weight: bold;
+/* ISSUE ERROR, solution? */
+animation: light 1.5s ease-in-out infinite alternate;}
+
+@keyframes light{
+from{
+ 
+   color: #fff;
+text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+}
+
+to {
+color: lightgrey;
+text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+
+}
+
+}
