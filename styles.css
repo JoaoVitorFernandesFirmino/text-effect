@@ -17,22 +17,22 @@ p{
     color: #A4FC52;
 }
 
+/* EFFECT */
 
 h1{
+    
     color: #A4FC52;
+    animation: light 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
 }
 
-.TextNeon{
-padding: 1rem 1rem ;
-text-align: center;
-}
-
-.TextNeon h1{
-font-size: 3rem;
-text-align: center;
-font-weight: bold;
-/* ISSUE ERROR, solution? */
-animation: light 1.5s ease-in-out infinite alternate;}
 
 @keyframes light{
 from{
@@ -48,3 +48,4 @@ text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00f
 }
 
 }
+/* effect */
