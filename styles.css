@@ -10,4 +10,15 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
+background: #152C11;
 } 
+
+p{
+    color: #A4FC52;
+}
+
+
+h1{
+    color: #A4FC52;
+}
+
